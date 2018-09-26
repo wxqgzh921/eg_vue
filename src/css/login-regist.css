@@ -1,0 +1,48 @@
+.right_link a{
+	display: block;
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.right-space{
+	margin-right: 10px;
+}
+.logoface img{
+	width: 150px;
+	margin: 10px;
+}
+.logoface{
+	text-align: center;
+}
+form{
+	margin: 0 20px;
+}
+.top_space {
+	margin-top: 10px;
+}
+.newline{
+	margin-top: 10px;
+}
+.align_right{
+	text-align: right;
+}
+.align_center{
+	text-align: center;
+}
+.mu-dialog {
+	border-radius: 6px;
+}
+
+.submitButton {
+	margin:10pt 10pt;
+}
+
+html, body, div#app{
+	height: 100%;
+}
+
+.detail_content{
+	padding-top: 95px;
+}
+
+body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}

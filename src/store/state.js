@@ -1,0 +1,35 @@
+export default{
+	giftList: [],
+	// 直播list
+	liveList: [],
+	// 详情页list
+	videolist: [],
+	// login
+	user: {},
+	// 当前登录者的登录状态。在则是对应的索引，不在则是-1
+	curState: -1,
+	// 当前时间节目单的位置：
+	curIndex: -1,
+	// 登录提示
+	isShow: true,
+	// 退出登录提示
+	isShow_signout: false,
+	// 错误信息
+	toastMessge: '',
+	// 错误信息是否显示
+	toastShow: false,
+	// 详情页的视频是否显示
+	showVideo_yxdt: true,
+	showVideo_xxjq: true,
+	showVideo_wwsz: true,
+	showVideo_mryb: true,
+	// 视频url
+	videourl_yxdt: '',
+	videourl_xxjq: '',
+	videourl_wwsz: '',
+	videourl_mryb: '',
+	isInApp: false,
+	showInstall: true,
+	isPopMenu: false,
+	isAndroid: false
+}
